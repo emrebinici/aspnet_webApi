@@ -1,0 +1,9 @@
+//{
+//  "ConnectionString": "Server=ikarusserver.database.windows.net;Initial Catalog=ikarusDB;User ID=ikarus;Password=LogisticYonetim123"
+//}
+{
+  //"ConnectionString": "Server=DESKTOP-QCEF0R7\\SQLEXPRESS;Initial Catalog=TurkeyDB;Integrated Security=True"
+  "ConnectionString": "Server=ML04\\SQLEXPRESS;Initial Catalog=flowDM_TOFAS_16092021;Integrated Security=True;Persist Security Info=False;",
+  //"ConnectionString": "Server=MS2\\SQLEXPRESS;Initial Catalog=FlowDM_2809;Integrated Security=True;Persist Security Info=False;"
+
+}

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0"?>
+<doc>
+	<assembly>
+		<name>FlowDMApi.Api</name>
+	</assembly>
+	<members>
+		<member name="T:FlowDMApi.Api.Controllers.YogunBakimController">
+			<summary>
+				Yoğun Bakım CRUD işlemlerini içerir
+			</summary>
+		</member>
+		<member name="M:FlowDMApi.Api.Controllers.YogunBakimController.GetYogunBakimListesi(Altiva.CommonAPI.Models.RequestModel.YogunBakim.YogunBakimListesiRequest)">
+			<summary>
+				Yogun Bakim Listesini Çeker
+			</summary>
+			<param name="request"></param>
+			<returns></returns>
+		</member>
+		<member name="M:FlowDMApi.Api.Controllers.YogunBakimController.GetServisGrupListesi(Altiva.CommonAPI.Models.RequestModel.YogunBakim.ServisGrupListesiRequest)">
+			<summary>
+				Servis Grup Listesini Çeker
+			</summary>
+			<param name="request"></param>
+			<returns></returns>
+		</member>
+		<member name="M:FlowDMApi.Api.Controllers.YogunBakimController.GetOdaListesi(Altiva.CommonAPI.Models.RequestModel.YogunBakim.OdaListesiRequest)">
+			<summary>
+				Oda Listesini Çeker
+			</summary>
+			<param name="request"></param>
+			<returns></returns>
+		</member>
+		<member name="T:FlowDMApi.Api.Extensions.Log4net.Layout.XmlLayoutSchemaLog4j">
+			<summary>
+				Layout that formats the log events as XML elements compatible with the log4j schema
+			</summary>
+			<remarks>
+				<para>
+					Formats the log events according to the http://logging.apache.org/log4j schema.
+				</para>
+			</remarks>
+			<author>Nicko Cadell</author>
+		</member>
+		<member name="F:FlowDMApi.Api.Extensions.Log4net.Layout.XmlLayoutSchemaLog4j.s_date1970">
+			<summary>
+				The 1st of January 1970 in UTC
+			</summary>
+		</member>
+		<member name="M:FlowDMApi.Api.Extensions.Log4net.Layout.XmlLayoutSchemaLog4j.#ctor">
+			<summary>
+				Constructs an XMLLayoutSchemaLog4j
+			</summary>
+		</member>
+		<member name="M:FlowDMApi.Api.Extensions.Log4net.Layout.XmlLayoutSchemaLog4j.#ctor(System.Boolean)">
+			<summary>
+				Constructs an XMLLayoutSchemaLog4j.
+			</summary>
+			<remarks>
+				<para>
+					The <b>LocationInfo</b> option takes a boolean value. By
+					default, it is set to false which means there will be no location
+					information output by this layout. If the the option is set to
+					true, then the file name and line number of the statement
+					at the origin of the log statement will be output.
+				</para>
+				<para>
+					If you are embedding this layout within an SMTPAppender
+					then make sure to set the <b>LocationInfo</b> option of that
+					appender as well.
+				</para>
+			</remarks>
+		</member>
+		<member name="P:FlowDMApi.Api.Extensions.Log4net.Layout.XmlLayoutSchemaLog4j.Version">
+			<summary>
+				The version of the log4j schema to use.
+			</summary>
+			<remarks>
+				<para>
+					Only version 1.2 of the log4j schema is supported.
+				</para>
+			</remarks>
+		</member>
+		<member name="M:FlowDMApi.Api.Extensions.Log4net.Layout.XmlLayoutSchemaLog4j.FormatXml(System.Xml.XmlWriter,log4net.Core.LoggingEvent)">
+			<summary>
+				Actually do the writing of the xml
+			</summary>
+			<param name="writer">the writer to use</param>
+			<param name="loggingEvent">the event to write</param>
+			<remarks>
+				<para>
+					Generate XML that is compatible with the log4j schema.
+				</para>
+			</remarks>
+		</member>
+	</members>
+</doc>
